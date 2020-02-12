@@ -68,8 +68,8 @@ label input{
 }
 
 p{
-    display: inline-block;
-    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
 }
 
 ul{
@@ -87,4 +87,8 @@ input + ul{
 .flex{
     display: flex;
     flex-direction: column;
+}
+
+li label{
+    display: inline-block;
 }
